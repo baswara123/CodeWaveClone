@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stroke-transition {
+    transition: stroke 0.3s ease; 
+}
+
+.button-e3fuiH:hover .stroke-transition {
+    stroke:  #6b46c1;
+}
+
+.searchbar::placeholder {
+    font-size: 12px;
+}
+
+.notification-item.read {
+    opacity: 0.6; /* Optional: To make it look more faded */
+}
+
+.course-item {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.course-item.completed {
+    opacity: 0.6;
+}
+
+.course-image {
+    background-color: #e0e0e0;
+    height: 200px; /* Placeholder height */
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Space below picture */
+}
+
+.course-item h5 {
+    margin-bottom: 15px; /* Space below title */
+}
+
+.course-item p {
+    margin-bottom: 10px; /* Space below description */
+}
+
+.progress {
+    margin-top: 10px; /* Space above progress bar */
+}
+
+h2 {
+    margin-bottom: 20px; /* Space below section header */
+}
